@@ -1,0 +1,2 @@
+db.getCollection('messages').find({users: { $all: ['igWoxiZL4573Dry3W','zurTjXCZu7X4MbXMu']}})
+db.getCollection('messages').find({users: { $all: ['igWoxiZL4573Dry3W','KgRMptnAbBxTKHhMX']}})
