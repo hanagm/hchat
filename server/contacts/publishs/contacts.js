@@ -10,6 +10,7 @@ import UserInfo from '/lib/collections/UserInfo';
 Meteor.publish('contacts',function (opts) {
 
 
+    console.log('this user',this.userId)
     check(this.userId,String);
     let contacts=Contacts.find({userId:this.userId});
 
